@@ -773,18 +773,19 @@ img {
   margin-bottom: 24px;
 }
 .signup-text {
-  display: flex;
+  /*display: flex;*/
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  align-items: center;
-  gap: 8px;
+  /*align-items: center;
+  gap: 8px;*/
+  margin-right: 8px;
 }
 
 .signup-text span {
   display: inline-flex;
-  /*align-items: center;*/
+  align-items: center;
   justify-content: center;
   width: 16px;
   height: 16px;
