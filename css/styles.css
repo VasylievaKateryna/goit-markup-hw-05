@@ -460,7 +460,7 @@ img {
 }
 
 .footer-social-media {
- font-size: 16px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
@@ -484,6 +484,7 @@ img {
 
 .email-tytle {
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
@@ -555,6 +556,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 24px;
 }
 
 /*------------*/
@@ -616,7 +618,8 @@ img {
   cursor: pointer;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-close {
@@ -716,7 +719,7 @@ img {
 }
 
 .modal-comment:focus {
-  border-color: #4D5AE5; 
+  border-color: #4d5ae5;
 }
 
 .modal-textarea {
@@ -769,7 +772,7 @@ img {
 }
 
 .signup-text span {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -778,6 +781,9 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-signup:checked + .signup-text span {
