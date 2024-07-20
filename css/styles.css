@@ -795,3 +795,6 @@ img {
 .signeup-privacy {
   color: #4d5ae5;
 }
+.privacy-link {
+  display: inline-flex;
+}
